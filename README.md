@@ -14,8 +14,8 @@ Daily solutions are contained within respective folders.
   <tr>
       <td>1</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day01</td>
-      <td>N/A</td>
-      <td>N/A</td>
+      <td>Completed</td>
+      <td>Completed</td>
   </tr>
   <tr>
       <td>2</td>
