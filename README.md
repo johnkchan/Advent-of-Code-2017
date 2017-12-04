@@ -14,8 +14,8 @@ Daily solutions are contained within respective folders.
   <tr>
       <td>1</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day01</td>
-      <td>Completed</td>
-      <td>Completed</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>2</td>
@@ -26,14 +26,14 @@ Daily solutions are contained within respective folders.
   <tr>
       <td>3</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day03</td>
-      <td>Completed</td>
-      <td>Completed</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>4</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day04</td>
-      <td>Completed</td>
-      <td>Completed</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>5</td>
@@ -44,26 +44,26 @@ Daily solutions are contained within respective folders.
   <tr>
       <td>6</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day06</td>
-      <td>Completed</td>
-      <td>Completed</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>7</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day07</td>
-      <td>Completed</td>
-      <td>Completed</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>8</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day08</td>
-      <td>Completed</td>
-      <td>Completed</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>9</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day09</td>
-      <td>Completed</td>
-      <td>In Progress</td>
+      <td>N/A</td>
+      <td>N/A</td>
   </tr>
   <tr>
       <td>10</td>
