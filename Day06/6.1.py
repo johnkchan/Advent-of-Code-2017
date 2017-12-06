@@ -12,7 +12,7 @@ while not conditionMet:
         key[i % len(key)] += 1
 
     if key not in container:
-        container.append([i for i in key])
+        container.append(key[:])
     else:
         conditionMet = True
         print(len(container) + 1)
