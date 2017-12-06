@@ -1033,8 +1033,7 @@ key = '''2
 -979'''
 
 key = [int(i) for i in key.split("\n")]
-counter = 0
-pos = 0
+counter, pos = 0, 0
 keyLen = len(key)
 
 while pos < keyLen:
