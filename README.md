@@ -26,7 +26,7 @@ Daily solutions are contained within respective folders.
   <tr>
       <td>3</td>
       <td>https://github.com/johnkchan/Advent-of-Code-2017/tree/master/Day03</td>
-      <td>N/A</td>
+      <td>Completed</td>
       <td>N/A</td>
   </tr>
   <tr>
