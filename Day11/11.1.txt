@@ -7,14 +7,12 @@ Sheets("Sheet1").Columns.ClearContents
 Dim yIndex As Long, xIndex As Long
     yIndex = 10
     xIndex = 10
-    Cells(yIndex, xIndex).Value = 0
+    Sheets("Sheet1").Cells(yIndex, xIndex).Value = 0
 
 Dim i As Long
-For i = 1 To 4
+For i = 1 To 5
     Dim Direction As String
         Direction = Sheets("Sheet2").Cells(i, "A").Value
-        
-    MsgBox (Direction)
         
     Select Case Direction
         
