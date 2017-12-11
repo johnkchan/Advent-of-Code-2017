@@ -1,0 +1,44 @@
+Sub Hex()
+
+' Clear Previous Data
+Sheets("Sheet1").Columns.ClearContents
+
+' Hex Grid Starting Coordinates
+Dim yIndex As Long, xIndex As Long
+    yIndex = 10
+    xIndex = 10
+    Cells(yIndex, xIndex).Value = 0
+
+Dim i As Long
+For i = 1 To 4
+    Dim Direction As String
+        Direction = Sheets("Sheet2").Cells(i, "A").Value
+        
+    MsgBox (Direction)
+        
+    Select Case Direction
+        
+        Case "N"
+            yIndex = yIndex - 2
+        Case "NW"
+            yIndex = yIndex - 1
+            xIndex = xIndex - 1
+        Case "NE"
+            yIndex = yIndex - 1
+            xIndex = xIndex + 1
+        Case "S"
+            yIndex = yIndex + 2
+        Case "SW"
+            yIndex = yIndex + 1
+            xIndex = xIndex - 1
+        Case "SE"
+            yIndex = yIndex + 1
+            xIndex = xIndex + 1
+            
+    End Select
+    
+    Sheets("Sheet1").Cells(yIndex, xIndex).Value = i
+    
+Next i
+
+End Sub
