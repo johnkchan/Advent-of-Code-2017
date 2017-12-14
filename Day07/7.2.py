@@ -1229,22 +1229,30 @@ inelfwo (91)
 vgkhk (76)
 cckrzh (6841) -> hdinwud, dqzkic, vrxkr'''
 
-def treeWeight(line, item):
-    weight = line[1]
-    weight = int(weight[1: len(weight) - 1])
+def treeWeight(line):
+    line = line.split(" ")
+    object = line[0]
+    weight = int(line[1][1: len(line[1]) - 1])
+    totalWeight = 0
     if len(line) == 2:
-        return (weight)
+        totalWeight += weight
+        return (totalWeight)
     else:
-        totalWeight = 0
         for i in range(2, len(line)):
             item = line[i][0: len(line[i]) - 1]
-            print(treeWeight(line, item))
+            for x in key:
+                if x.split(" ")[0] == item:
+                    line = key.index(x)
+                    break
+            print(line)
+
+            'print(treeWeight(line))
 
 
 # ['cckrzh', '(6841)', '->', 'hdinwud,', 'dqzkic,', 'vrxkr']
 
 key = key.splitlines()
+
 for line in key:
-    line = line.split(" ")
-    print(treeWeight(line, line[0]))
+    print(treeWeight(line)
     break
